@@ -92,5 +92,5 @@ class AvitoParser:
         data = open('data.txt', 'a')
         data.write(str(ads) + '\n')
         data.close()
-        # TelegramBot().send_message(str(ads))
+        TelegramBot().send_message(str(ads))
         print(ads)
