@@ -76,4 +76,5 @@ btm_stop_parser.grid(row=5, column=0, stick='w', pady=3, padx=15)
 tk.Label(root, text=f'Последнее сканирование').grid(row=4, column=1, stick='w')
 time_of_pars = tk.Label(root, text='')
 time_of_pars.grid(row=4, column=2, stick='w')
-root.parserAvitoloop()
+
+root.mainloop()
